@@ -1,0 +1,252 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav {
+    background:#ff8800;
+    width: 100%;
+    height: 90px;
+    padding: ;
+    } 
+nav a{
+        float: left;
+    font-size: 30px;
+    font-family: fantasy;
+        padding: 13px;
+        text-decoration: none;
+            margin-left: 62px;
+ }
+ .banner {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    position: relative;
+ }
+.banner  {background : url("https://bestschool.net.in/templates/purity_iii/images/bg.jpg");
+    text-align: center;
+   
+  color:white; 
+   
+  width: 100%;
+    height:650px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h2 
+{
+   font-size: 50px;
+   padding-top:-180px;
+  
+
+    font-family: math;
+
+}
+.banner h4 
+{
+   font-size: 30px;
+   margin-top: 03px;
+
+    font-family: math;
+
+
+
+}
+.banner input{
+    font-size: 20px;
+
+    width: 680px;
+    height: 53px;
+    border: none;
+    outline: none;
+    background: #00000099;
+    color: skyblue;
+    padding-left: 25px;
+    margin-top: 23px;
+}
+::placeholder{
+    color: red;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+.a{
+   background:  white;
+    width: 100%;
+    height: 1602px;
+
+}
+.b2{ 
+    width: 100%;
+    height: 1000px;
+    padding:200px 200px;
+    font-size: 50px;
+   /* margin: 52px;
+    margin-right: 52px;*/
+    margin: 10px;
+    margin-left: -10px;
+    
+
+/*    display: flex;*/
+    justify-content: space-between;
+}
+.b2 .box  {
+         background:  blue;
+         border: 5px solid wheat;
+         display: flex;    
+         width: 450px;
+         height: 320px;
+        
+         padding: 1px;
+         margin: 24px;
+         float: left;
+         display: flex;
+
+
+         <!--banner start-->
+         <div class="banner">
+          <img src="data:image/jpeg;base64,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" width="100%" height="700px">
+         <div class="search">
+          <center>
+          <h1>Guide your child  to a better future</h1>
+          <br><br>
+          <h4>Find the best school</h4>
+          <input type="text" name="" placeholder="Start typing city, zip, address or landmark">
+          </center>
+      
+          </div>
+         </div>
+         <!--banner end-->
+         <!--google area start-->
+         <div class="google-area">
+         </div>
+         <!--google area end-->
+         <div class="features-section">
+          <header>
+              <div class="b2">
+                  <hr>
+                   <header ><h2 style=" font-size: 54px; text-align: center;">Scientific Approach of Finding Best School</h2>
+                  <p style="font-size: 30px; color:black; text-align: center">Experience the Power of Data Analysis</p>
+                  </header>
+          
+              
+              </div>
+          </header>
+          <div class="cities">
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Mumbai.png" class="image"></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Chennai.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Bangalore.png" class="image" alt="Banglore"></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Delhi-NCR.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Hyderabad.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Kolkata.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Pune.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Lucknow.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Ahmedabad.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Jaipur.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Dehradun.png" class="image" alt=""></a>
+              <a href=""><img src="https://bestschool.net.in//images/top_schools_of_Surat.png" class="image" alt=""></a>
+          </div>
+          <center><a href="#"><button class="button">Other Cities...</button></a></center>
+         </div>
+         <div class="lines">
+          "We recently moved to Delhi and it was all confusing about finding school every one had deferent choice but your website made it so simple, Thank You."
+      
+          - A BestSchool Parent
+          "
+         </div>
+         </div>
+      <footer> <div> <a rel="nofollow" href="/./component/content/article/11-was/10-privacy" title="Privacy Policy">Privacy</a> <b style="font-size: 50px;">|</b> <a rel="nofollow" href="/./component/content/article/11-was/9-contact" title="Contact Us">Contact Us</a> 
+      </div>
+      <div><small>
+      Copyright &copy; 2023 bestschool.net.in; All Rights Reserved
+      </small></div> 
+      </footer>
+      </div>
+       </div>
+         
+       
+      
+      </body>
+      </html>
+      banner h1{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    .banner h4{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+    .banner input{
+        font-size: 20px;
+        width: 680px;
+        height: 53px;
+        border-radius:none;
+        border: none;
+        outline: none;
+        background: #ff8800;
+        color: blueviolet;
+        padding-left: 25px;
+        margin-top: 23px;
+    }
+    .google area{
+        width:100%;
+        height:350px;
+        background-color:whitesmoke;
+    
+    }
+    .features-section{
+        width:100%;
+        height:1300px;
+        background-color: whitesmoke;
+    }
+    .main heading{
+        padding-top: 80px;
+        text-align: center;
+    }
+    .main heading h1{
+        font-size: 45px;
+        font-family: sans-serif;
+        font-weight: 100;
+        letter-spacing: -1px
+    }
+    .sub-heading{
+        text-align:center;
+        padding -top: 10px;
+    }
+    .sub-heading-h4{
+        font-size: 34px;
+        font-family: sans -serif;
+        font-weight: 100;
+        letter-spacing: -1px;
+    }
+    .cities{
+        margin-left: -64px;
+        margin-right: 9px;
+        padding-top: 3px;
+    }   
+    .button{
+        color: white;
+        background: #ff8800;
+        border-radius: 100px;
+        padding: 12px;
+        padding-left: 28px;
+        padding-right: 25px;
+        border: none;
+        font-size: 35px;
+    
+        }
+    .lines{
+        width: 100%;
+        height: 180px;
+        text-align: center;
+        padding-left: 276px;
+        margin-top: 220px;
+        padding-right: 250px;
+        color: chocolate;
+        font-size: 32px;
+        font-family: cursive;
+    }
+    
